@@ -31,8 +31,26 @@
     <main>
         <section class="blankslate">    
                 <h2>
-                    Vos informations
+                    🔥 Vos informations!
                 </h2>
+                <?php
+                if(isset($_GET["mail"]) && isset($_GET["pass"])){
+                    
+                    if($_GET["mail"] && $_GET["pass"]){
+                        echo "<ul><li>\n".$_GET['mail']."</li>
+                        \n<li>".md5($_GET['pass'])."</li>
+                        </ul>";
+                        
+                    }
+                    else{
+                        header("Location: index.php");
+                        die("<p>Erreur de formulaire</p>");
+                    }
+
+                }
+               
+            ?>
+               
            
                         
         </section>

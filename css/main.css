@@ -25,6 +25,9 @@ img{
 input{
     font-size: inherit;
 }
+ul, ol{
+    list-style: none;
+}
 
 /* theme */
 aside, main{

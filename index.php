@@ -30,10 +30,10 @@
     </aside>
     <main>
         <section class="blankslate">    
-                    <h2>
+            <h2>
                 Connectez-vous
             </h2>
-            <form action="#" method="post">
+            <form action="confirmation.php" method="get">
 
             <label for="login">Login</label>
             <input class="form-control" name="mail" type="text" placeholder="Login" id="login">
@@ -42,6 +42,7 @@
             <input class="form-control input-monospace"  id="pass" name="pass" type="password" placeholder="password">
             <input type="submit" class="btn btn-primary" value="Envoyer">
             </form>
+       
                         
         </section>
     
