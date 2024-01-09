@@ -31,11 +31,12 @@
     <main>
         <section class="blankslate">    
                 <h2>
-                    🔥 Vos informations!
+                    
+                    <span ariq-hidden="true">🔥</span> Vos informations!
                 </h2>
                 <?php
                 if(isset($_GET["mail"]) && isset($_GET["pass"])){
-                    
+
                     if($_GET["mail"] && $_GET["pass"]){
                         echo "<ul><li>\n".$_GET['mail']."</li>
                         \n<li>".md5($_GET['pass'])."</li>
