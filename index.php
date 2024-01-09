@@ -7,7 +7,8 @@
     <title>Connexion PHP POO static</title>
     <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-</head><body>
+</head>
+<body>
     <header>
         <h1>
          <span aria-hidden="true">      	
